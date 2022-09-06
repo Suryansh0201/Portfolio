@@ -12,9 +12,14 @@
     gap: 2rem;
 }
 
+.logo{
+width: 100px;
+margin-left: -2rem;
+margin-right: -2rem;
+}
 
 .name-left{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 

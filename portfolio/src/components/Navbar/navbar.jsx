@@ -2,10 +2,12 @@ import React from 'react'
 import './navbar.css'
 import Toogle from '../Toogle/toogle'
 import {Link} from 'react-scroll';
+import headLogo from '../../img/logohead.png'
 const navbar = () => {
   return (
     <div className="all-navbar" id='Navbar'>
         <div className="left-navbar">
+            <img className='logo' src={headLogo} alt="" />
             <div className="name-left">Suryansh</div>
             <Toogle />
         </div>
