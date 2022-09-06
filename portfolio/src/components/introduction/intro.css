@@ -1,0 +1,112 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 8rem;
+}
+
+.l-intro{
+display: flex;
+position: relative;
+flex: 1;
+flex-direction: column;
+gap:2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2){
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 6rem;
+    height: 2.5rem;
+    
+}
+
+.icon-left{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.icon-left>*{
+    transform: scale(0.5);
+}
+
+.icon-left>*:hover{
+    cursor: pointer;
+    transform: scale(0.75);
+}
+.r-intro{
+    flex: 1;
+    position: relative;
+
+}
+.r-intro>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.r-intro>:nth-child(1){
+    transform: scale(0.72);
+    left: -22%;
+    top: -45%;
+}
+.r-intro>:nth-child(2){
+    transform: scale(1.9);
+    left: 28%;
+    top: -11%;
+}
+.r-intro>:nth-child(3){
+    transform: scale(0.75);
+    top: -25%;
+    left: -20%;
+    border-radius: 50%;
+    padding: 0;
+}
+.r-intro>img:nth-child(3):hover{
+    cursor: pointer;
+transform: scale(0.90);
+}
+
+.back-r{
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .r-intro{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .r-intro .blurEffect{
+        display: none;
+    }
+    .floating-div:nth-of-type(1){
+        top: -7rem !important;
+    }
+}

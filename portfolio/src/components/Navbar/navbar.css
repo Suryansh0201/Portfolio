@@ -1,0 +1,53 @@
+.all-navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-navbar{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.name-left{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.right-navbar{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.r-list{
+    flex: 10;
+}
+
+.r-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.r-list>ul>*:hover{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+
+@media screen and (max-width: 480px){
+    .r-list{
+        display: none;
+    }
+    .contact-r{
+        display: none;
+    }
+}
+

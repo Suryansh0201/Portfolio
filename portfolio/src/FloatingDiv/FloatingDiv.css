@@ -1,0 +1,24 @@
+.FloatingDiv{
+    justify-content: space-around;
+    display: flex;
+    background: whitesmoke;
+    box-shadow: var(--boxShadow);
+    border-radius: 15px;
+    /*flex-direction: column;*/
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: -15%;
+    height: 4.5rem;
+    width: auto;
+    padding: 0px 30px 0px 0px;
+}
+.FloatingDiv>img{
+    transform: scale(0.4);
+    
+}
+.FloatingDiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}

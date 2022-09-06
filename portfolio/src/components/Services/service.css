@@ -1,0 +1,56 @@
+.service{
+    display: flex;
+    padding: 0rem 3rem 0rem 3rem;
+    height: 90vh;
+    margin-bottom: 23rem;
+    margin-top: 9rem;
+    gap: 1.5rem;
+}
+
+.s-left{
+    display: flex;
+    flex-direction: column;
+}
+.s-left>span:nth-child(1){
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.s-left>span:nth-child(2){
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.s-left>span:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;  
+    font-weight: normal;
+}
+
+.s-button{
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    
+}
+
+.s-blur1{
+top: 55rem;
+left: -14rem;
+}
+
+.s-blur2{
+    top: 14rem;
+    left: 15rem;
+}
+
+@media screen and (max-width: 480px){
+    .service{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    
+}
