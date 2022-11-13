@@ -44,16 +44,19 @@ const testimonials = () => {
         modules={[Pagination]}
         slidesPerView={1}
         Pagination={{clickable: true}}
+        autoplay={true}
         >
         {clients.map((clients, index)=>{
           return(
+            
             <SwiperSlide key={index}>
               <div className="testimonial">
              <img src={clients.img} alt="" />
              <span>{clients.reviews}</span>
              </div>
+             
             </SwiperSlide>
-          )
+          );
         })}
         </Swiper>
     </div>

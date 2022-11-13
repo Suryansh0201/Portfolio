@@ -19,7 +19,7 @@ const footer = () => {
                 <a href="https://www.linkedin.com/in/suryansh-1ab07621b"><Linkedin size='3rem' style={{color: darkMode ? 'white': 'black'}}/></a>
                 <a href="https://github.com/Suryansh0201"><Github size='3rem' style={{color: darkMode ? 'white': 'black'}}/></a>
             </div>
-        <p class="copyright">Copyright &copy; 2022-23 Suryansh</p>
+        <p className="copyright">Copyright &copy; 2022-23 Suryansh</p>
         </div>
     </div>
   )

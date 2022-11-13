@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 import Toogle from '../Toogle/toogle'
 import {Link} from 'react-scroll';
-import headLogo from '../../img/logohead.png'
+import headLogo from '../../img/topLogo.png'
 const navbar = () => {
   return (
     <div className="all-navbar" id='Navbar'>

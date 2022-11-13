@@ -3,6 +3,9 @@ import './Portfolio.css';
 import 'swiper/css'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import FashionMart from '../../img/Fashion_Mart.png'
+import Spotify from '../../img/spotify.png'
+import OTP from '../../img/otp.png'
+import WeatherApp from '../../img/weather-app.png'
 import { themeContext } from '../../context';
 import { useContext as UseContext } from 'react';
 const Portfolio = () => {
@@ -22,14 +25,15 @@ const Portfolio = () => {
           grabCursor= {true}
           className='Project-slider'
         >
+          <SwiperSlide>
+            <img src={WeatherApp} alt="" />
+            </SwiperSlide>
+            
             <SwiperSlide>
-            <img src={FashionMart} alt="" />
+            <img src={Spotify} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-            <img src={FashionMart} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-            <img src={FashionMart} alt="" />
+            <img src={OTP} alt="" />
             </SwiperSlide>
             <SwiperSlide>
             <img src={FashionMart} alt="" />

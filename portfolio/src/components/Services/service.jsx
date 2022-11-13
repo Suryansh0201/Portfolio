@@ -4,7 +4,7 @@ import Web from "../../img/web.png";
 import Cpppic from "../../img/c++pic.png"
 import AWS from "../../img/aws.png"
 import Skill from "../knowledge/Knowledge.jsx";
-import CV from "../Services/cv.pdf"
+import CV from "../Services/Resume.pdf"
 import { themeContext } from '../../context';
 import { useContext as UseContext } from 'react';
 import { motion } from 'framer-motion';

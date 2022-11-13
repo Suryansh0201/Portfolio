@@ -7,8 +7,7 @@
     gap: 1rem;
     align-items: center;text-align: center;
     background: rgba(211, 206, 206, 0.26);
-    border:6px solid #0971e9 ;
-    box-shadow: rgb(207, 73, 73);
+    
     border-radius: 20px;
     padding: 0px 26px 2rem 26px ;
 }
